@@ -98,10 +98,28 @@ function renderTable(selected) {
 
   roomNames.forEach((room) => {
     const tr = document.createElement("tr");
-    const cells = selected.map((p) => `<td>${p.rooms[room] || "-"}</td>`).join("");
+    const cells = selected
+      .map((p) => `<td>${formatRoomValue(p.rooms[room] || "-")}</td>`)
+      .join("");
     tr.innerHTML = `<td>${room}</td>${cells}`;
     tableBodyEl.appendChild(tr);
   });
+}
+
+function formatRoomValue(value) {
+  const raw = String(value || "-").trim();
+  if (!raw || raw === "-") return "-";
+  if (/(m2|m²)/i.test(raw)) return raw;
+
+  const match = raw.match(/([0-9]+(?:[.,][0-9]+)?)\s*[xX]\s*([0-9]+(?:[.,][0-9]+)?)/);
+  if (!match) return raw;
+
+  const width = Number(match[1].replace(",", "."));
+  const length = Number(match[2].replace(",", "."));
+  if (!Number.isFinite(width) || !Number.isFinite(length)) return raw;
+
+  const area = (width * length).toFixed(2).replace(".", ",");
+  return `${raw} (${area} m2)`;
 }
 
 function pushUrlState() {
