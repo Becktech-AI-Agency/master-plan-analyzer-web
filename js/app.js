@@ -2,6 +2,7 @@ const MAX_SELECTION = 4;
 
 const pickerEl = document.getElementById("property-picker");
 const hintEl = document.getElementById("selection-hint");
+const exportBtnEl = document.getElementById("export-csv");
 const resetBtnEl = document.getElementById("reset-selection");
 const cardsEl = document.getElementById("selected-cards");
 const tableHeadEl = document.querySelector("#comparison-table thead");
@@ -54,6 +55,7 @@ function renderPicker() {
 
 function updateUI() {
   hintEl.textContent = `${selectedIds.length}/${MAX_SELECTION} selected`;
+  exportBtnEl.disabled = selectedIds.length === 0;
   resetBtnEl.disabled = selectedIds.length === 0;
   const selected = db.properties.filter((p) => selectedIds.includes(p.id));
   document.querySelectorAll('.pick-item input').forEach((i) => {
@@ -150,4 +152,38 @@ function clearSelection() {
   updateUI();
 }
 
+function escapeCsvValue(value) {
+  const raw = String(value ?? "");
+  const escaped = raw.replace(/"/g, '""');
+  return `"${escaped}"`;
+}
+
+function exportCsv() {
+  const selected = db.properties.filter((p) => selectedIds.includes(p.id));
+  if (selected.length === 0) return;
+
+  const roomNames = [...new Set(selected.flatMap((p) => Object.keys(p.rooms)))].sort();
+  const header = ["Room", ...selected.map((p) => p.name)];
+  const rows = roomNames.map((room) => {
+    const values = selected.map((p) => formatRoomValue(p.rooms[room] || "-"));
+    return [room, ...values];
+  });
+
+  const csvText = [header, ...rows]
+    .map((row) => row.map(escapeCsvValue).join(","))
+    .join("\n");
+
+  const blob = new Blob([csvText], { type: "text/csv;charset=utf-8;" });
+  const url = URL.createObjectURL(blob);
+  const timestamp = new Date().toISOString().slice(0, 10);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = `planora-comparison-${timestamp}.csv`;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
+}
+
+exportBtnEl.addEventListener("click", exportCsv);
 resetBtnEl.addEventListener("click", clearSelection);
