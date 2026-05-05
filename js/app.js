@@ -2,6 +2,7 @@ const MAX_SELECTION = 4;
 
 const pickerEl = document.getElementById("property-picker");
 const hintEl = document.getElementById("selection-hint");
+const resetBtnEl = document.getElementById("reset-selection");
 const cardsEl = document.getElementById("selected-cards");
 const tableHeadEl = document.querySelector("#comparison-table thead");
 const tableBodyEl = document.querySelector("#comparison-table tbody");
@@ -53,6 +54,7 @@ function renderPicker() {
 
 function updateUI() {
   hintEl.textContent = `${selectedIds.length}/${MAX_SELECTION} selected`;
+  resetBtnEl.disabled = selectedIds.length === 0;
   const selected = db.properties.filter((p) => selectedIds.includes(p.id));
   document.querySelectorAll('.pick-item input').forEach((i) => {
     i.checked = selectedIds.includes(i.value);
@@ -123,3 +125,11 @@ function restoreFromUrl() {
     .slice(0, MAX_SELECTION);
   selectedIds = parsed;
 }
+
+function clearSelection() {
+  selectedIds = [];
+  pushUrlState();
+  updateUI();
+}
+
+resetBtnEl.addEventListener("click", clearSelection);

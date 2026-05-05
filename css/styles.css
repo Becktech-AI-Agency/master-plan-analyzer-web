@@ -55,6 +55,13 @@ h1 { font-size: clamp(1.9rem, 4vw, 3rem); line-height: 1.1; }
 
 .section-head p, .hint, .muted { color: var(--muted); }
 .compare-section, .how-section, .partners { margin: 2rem auto 2.5rem; }
+.selection-bar {
+  margin-top: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.7rem;
+}
 .picker {
   background: var(--paper);
   border: 1px solid var(--line);
@@ -119,6 +126,18 @@ tbody tr:hover { background: #f8fbfa; }
   font-weight: 600;
 }
 .ad-inline { margin-top: 1rem; }
+.btn-secondary {
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink);
+  border-radius: 10px;
+  padding: 0.45rem 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-secondary:hover {
+  background: #f6f8f9;
+}
 
 .how-section ol { margin: 0; padding-left: 1.1rem; }
 .how-section li { margin-bottom: 0.42rem; }
@@ -128,4 +147,5 @@ tbody tr:hover { background: #f8fbfa; }
 @media (max-width: 900px) {
   .hero-grid { grid-template-columns: 1fr; }
   .nav { display: none; }
+  .selection-bar { flex-direction: column; align-items: flex-start; }
 }
