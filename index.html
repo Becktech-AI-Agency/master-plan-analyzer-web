@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Planora UAE | Compare Dubai & UAE Master Plans</title>
+  <meta name="description" content="Compare up to 4 UAE property master plans side by side. See room sizes, layouts, and key differences across Dubai communities in one trusted dashboard." />
+  <meta name="keywords" content="UAE properties, Dubai townhouses, master plan comparison, floor plan UAE, off-plan Dubai, property comparison tool" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <link rel="canonical" href="https://planora.bck.life/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Planora UAE | Compare Dubai & UAE Master Plans" />
+  <meta property="og:description" content="Compare up to 4 floor plans from UAE properties side by side." />
+  <meta property="og:url" content="https://planora.bck.life/" />
+  <meta property="og:image" content="https://planora.bck.life/assets/generated/og-cover.svg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Planora UAE | Compare Dubai & UAE Master Plans" />
+  <meta name="twitter:description" content="Side-by-side comparison for UAE master plans and room dimensions." />
+  <meta name="twitter:image" content="https://planora.bck.life/assets/generated/og-cover.svg" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Planora UAE",
+    "url": "https://planora.bck.life/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://planora.bck.life/?q={query}",
+      "query-input": "required name=query"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-wrap">
+      <a class="brand" href="#top" aria-label="Planora UAE home">
+        <img src="assets/generated/logo-planora.svg" alt="Planora UAE logo" />
+      </a>
+      <nav class="nav">
+        <a href="#compare">Compare</a>
+        <a href="#how">How it works</a>
+        <a href="#partners">Partners</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">UAE Property Intelligence</p>
+          <h1>Compare up to 4 UAE master plans in one clear table</h1>
+          <p class="lead">Designed for serious buyers and agents who want layout clarity fast. Trusted, simple, and built for Dubai and UAE off-plan research.</p>
+          <a href="#compare" class="btn-primary">Start Comparing</a>
+        </div>
+        <div class="hero-art">
+          <img src="assets/generated/hero-illustration.svg" alt="Property comparison visual" />
+        </div>
+      </div>
+    </section>
+
+    <section class="ad-row container" aria-label="Sponsored section top">
+      <div class="ad-slot" data-ad-slot="top-leaderboard">Ad Slot 970x90</div>
+    </section>
+
+    <section id="compare" class="compare-section container">
+      <div class="section-head">
+        <h2>Master Plan Comparison</h2>
+        <p>Select up to 4 properties. Comparison updates instantly from JSON database.</p>
+      </div>
+
+      <div class="picker" id="property-picker"></div>
+      <p class="hint" id="selection-hint">0/4 selected</p>
+
+      <div class="ad-inline" data-ad-slot="in-content-1">Ad Slot 300x250</div>
+
+      <div class="cards" id="selected-cards"></div>
+
+      <div class="table-wrap">
+        <table id="comparison-table">
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="how" class="how-section container">
+      <h2>Data Pipeline</h2>
+      <ol>
+        <li>Scraper fetches UAE master plans and updates JSON entries.</li>
+        <li>You push repository updates to production server.</li>
+        <li>Ads, analytics, and affiliate links monetize traffic.</li>
+        <li>Users compare up to 4 properties room-by-room.</li>
+      </ol>
+    </section>
+
+    <section id="partners" class="partners container">
+      <h2>Partner Links</h2>
+      <p>Official developer and broker links appear per property card.</p>
+      <div class="ad-row">
+        <div class="ad-slot" data-ad-slot="bottom-banner">Ad Slot 728x90</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> Planora UAE. All rights reserved.</p>
+      <p class="muted">For informational purposes only. Verify dimensions with official developer brochures.</p>
+    </div>
+  </footer>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>

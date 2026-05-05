@@ -1,0 +1,22 @@
+{
+  "sources": [
+    {
+      "developer": "Emaar",
+      "community": "The Valley",
+      "city": "Dubai",
+      "country": "UAE",
+      "type": "Townhouse",
+      "beds": "3BR",
+      "url": "https://properties.emaar.com/en/properties/the-valley/"
+    },
+    {
+      "developer": "Dubai Properties",
+      "community": "Villanova",
+      "city": "Dubai",
+      "country": "UAE",
+      "type": "Townhouse",
+      "beds": "3BR",
+      "url": "https://www.dubai-properties.ae/en/"
+    }
+  ]
+}
