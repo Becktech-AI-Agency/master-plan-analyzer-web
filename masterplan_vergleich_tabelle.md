@@ -1,39 +1,13 @@
-# Vergleichstabelle Masterpläne
+# Vergleichstabelle Masterpläne (kompakt)
 
-Legende: `-` = nicht vorhanden/nicht lesbar
+Hinweis: Angezeigt werden nur die gewünschten Zeilen. Die Gesamtquadratmeterzahl summiert trotzdem alle Räume aus der vollständigen Tabelle.
 
 | Zimmer | anya | eden | elora | lilia | may | nara | orania | raya | talia | WhatsApp Image 2026-05-04 at 13.48.07 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Garden Area / Private Yard | - | - | - | - | - | - | - | - | - | Fläche vorhanden (unscharf) |
-| Terrace | - | - | - | - | - | - | - | - | - | - |
-| Terrace 1 | - | - | - | - | 3.85 x 2.00 | - | - | 3.85 x 2.00 | - | - |
-| Terrace 2 | - | - | - | - | 3.00 x 1.60 | - | - | 3.00 x 1.60 | - | - |
-| Dining Room | 4.3 x 3.2M | 5.05 x 3.25M | 2.4 x 3.5M | 4.8 x 3.5M | - | 3.0 x 3.2M | 2.8 x 4.0M | - | 3.0 x 3.2M | - |
-| Kitchen & Dining | - | - | - | - | 2.70 x 4.00 | - | - | 2.70 x 4.00 | - | - |
-| Dining & Kitchen | - | - | - | - | - | - | - | - | - | 2.8 x 3.5 |
-| Living Room / Living | 4.8 x 3.1M | 4.15 x 3.25M | 3.9 x 3.9M | 4.6 x 3.9M | 3.90 x 4.75 | 4.3 x 3.2M | 4.3 x 4.0M | 3.90 x 4.75 | 4.3 x 3.2M | 3.8 x 3.6 |
-| Kitchen | 3.1 x 2.9M | 3.10 x 2.15M | 2.4 x 2.6M | - | - | 5.1 x 2.2M | 2.2 x 3.3M | - | 5.1 x 2.2M | - |
-| Corridor | 1.1 x 1.5M | - | - | - | - | - | - | - | - | - |
-| Labi/Lobby | - | - | 1.4 x 0.9M | - | - | - | - | - | - | - |
-| Entrance | - | - | 3.1 x 1.3M | 3.7 x 0.9M | - | - | - | - | - | - |
-| Entrance Foyer | - | - | - | - | - | - | - | - | - | 1.4 x 2.0 |
-| Store | - | 1.05 x 1.05M | - | - | - | - | - | - | - | - |
-| Storage | 1.0 x 1.2M | - | - | - | - | 1.1 x 1.2M | - | - | 1.1 x 1.2M | - |
-| Powder Room / Powder | 1.3 x 1.4M | 1.90 x 1.45M | 1.5 x 1.8M | 1.7 x 1.4M | 1.95 x 1.75 | 1.5 x 1.7M | - | 1.95 x 1.75 | 1.5 x 1.7M | 1.9 x 1.4 |
-| WC | - | - | - | - | - | - | 1.0 x 1.5M | - | - | - |
-| Maid's Room / Maids Room | 2.1 x 3.3M | 1.80 x 3.00M | 2.3 x 2.4M | 1.7 x 2.9M | 2.55 x 2.10 | 1.8 x 2.9M | 2.0 x 2.8M | 2.55 x 2.10 | 1.8 x 2.9M | 2.4 x 2.3 |
-| Maid's Bath | - | - | - | - | 1.40 x 2.30 | - | - | 1.40 x 2.30 | - | - |
-| Bath (EG) | 2.0 x 2.0M | - | 1.5 x 1.8M | 2.5 x 2.3M | - | 1.2 x 1.9M | 1.3 x 1.8M | - | 1.2 x 1.9M | 2.2 x 1.8 |
-| Bath (OG) | 2.8 x 2.85M | 2.80 x 2.85M | 1.8 x 2.3M | - | - | 1.9 x 2.9M | 1.2 x 1.4M | - | 1.9 x 2.9M | - |
-| Bath | - | 2.80 x 2.85M | 1.8 x 2.3M | - | 2.65 x 1.85 | 1.9 x 2.9M | 1.2 x 1.4M | 2.65 x 1.85 | 1.9 x 2.9M | 1.9 x 2.0 |
-| Master Bedroom / Master's Bedroom | 3.4 x 3.5M | 3.90 x 3.70M | 4.5 x 3.3M | 3.6 x 3.6M | 3.85 x 3.25 | 4.0 x 3.8M | 4.0 x 3.2M | 3.85 x 3.25 | 4.0 x 3.8M | 3.4 x 3.8 |
-| Master Bath / Master's Bath / Master Bathroom | 1.8 x 2.6M | 1.95 x 2.60M | 1.9 x 3.2M | - | 2.60 x 2.95 | 1.9 x 2.7M | 1.8 x 1.9M | 2.60 x 2.95 | 1.9 x 2.7M | 2.6 x 1.7 |
-| Closet / Walk-in Closet | - | - | - | - | 2.70 x 1.85 | - | - | 2.70 x 1.85 | - | 2.4 x 1.3 |
-| Bedroom 1 | 3.1 x 3.0M | 3.10 x 3.10M | 3.1 x 2.9M | 3.4 x 3.0M | - | 3.2 x 3.2M | 3.2 x 3.3M | - | 3.2 x 3.2M | - |
-| Bedroom 2 | 3.1 x 3.0M | 3.10 x 3.10M | 3.1 x 3.5M | 3.7 x 3.0M | 3.30 x 3.75 | 3.1 x 3.8M | 3.2 x 3.3M | 3.30 x 3.75 | 3.1 x 3.8M | 3.1 x 3.1 |
-| Bedroom 3 | - | - | - | - | 3.20 x 3.80 | - | - | 3.20 x 3.80 | - | 3.9 x 3.1 |
-| Laundry | 0.8 x 2.15M | 0.80 x 2.15M | - | - | 1.00 x 1.10 | 0.9 x 2.2M | - | 1.00 x 1.10 | 0.9 x 2.2M | 1.2 x 1.5 |
-| Garage / Carport / Covered Parking | - | - | - | - | Carport | - | - | Carport | - | 6.2 x 4.8 |
-| Balcony | 2.45 x 1.30M | 2.45 x 1.30M | - | 3.2 x 1.6M | - | 3.2 x 1.6M | 2.8 x 1.5M | - | 3.2 x 1.6M | - |
-| Balcony (oben) | - | - | 6.3 x 1.3M | - | - | - | - | - | - | 4.8 x 1.2 |
-| Balcony (unten) | - | - | 6.3 x 1.3M | - | - | - | - | - | - | 3.3 x 1.5 |
+| Dining Room | 4,3 x 3,2 = 13,76m2 | 5,05 x 3,25 = 16,41m2 | 2,4 x 3,5 = 8,40m2 | 4,8 x 3,5 = 16,80m2 | - | 3,0 x 3,2 = 9,60m2 | 2,8 x 4,0 = 11,20m2 | - | 3,0 x 3,2 = 9,60m2 | - |
+| Kitchen | 3,1 x 2,9 = 8,99m2 | 3,1 x 2,15 = 6,67m2 | 2,4 x 2,6 = 6,24m2 | - | - | 5,1 x 2,2 = 11,22m2 | 2,2 x 3,3 = 7,26m2 | - | 5,1 x 2,2 = 11,22m2 | - |
+| Kitchen & Dining & Living Room | Dining 4,3 x 3,2 + Living 4,8 x 3,1 = 28,64m2 | Dining 5,05 x 3,25 + Living 4,15 x 3,25 = 29,90m2 | Dining 2,4 x 3,5 + Living 3,9 x 3,9 = 23,61m2 | Dining 4,8 x 3,5 + Living 4,6 x 3,9 = 34,74m2 | Living 3,9 x 4,75 = 18,52m2 | Dining 3,0 x 3,2 + Living 4,3 x 3,2 = 23,36m2 | Dining 2,8 x 4,0 + Living 4,3 x 4,0 = 28,40m2 | Living 3,9 x 4,75 = 18,52m2 | Dining 3,0 x 3,2 + Living 4,3 x 3,2 = 23,36m2 | Living 3,8 x 3,6 = 13,68m2 |
+| Master Bedroom (incl Walkin Closet) | Master 3,4 x 3,5 = 11,90m2 | Master 3,9 x 3,7 = 14,43m2 | Master 4,5 x 3,3 = 14,85m2 | Master 3,6 x 3,6 = 12,96m2 | Master 3,85 x 3,25 + Closet 2,7 x 1,85 = 17,51m2 | Master 4,0 x 3,8 = 15,20m2 | Master 4,0 x 3,2 = 12,80m2 | Master 3,85 x 3,25 + Closet 2,7 x 1,85 = 17,51m2 | Master 4,0 x 3,8 = 15,20m2 | Master 3,4 x 3,8 + Closet 2,4 x 1,3 = 16,04m2 |
+| Bedroom 1 | 3,1 x 3,0 = 9,30m2 | 3,1 x 3,1 = 9,61m2 | 3,1 x 2,9 = 8,99m2 | 3,4 x 3,0 = 10,20m2 | - | 3,2 x 3,2 = 10,24m2 | 3,2 x 3,3 = 10,56m2 | - | 3,2 x 3,2 = 10,24m2 | - |
+| Bedroom 3 | - | - | - | - | 3,2 x 3,8 = 12,16m2 | - | - | 3,2 x 3,8 = 12,16m2 | - | 3,9 x 3,1 = 12,09m2 |
+| Gesamtquadratmeterzahl (alle Räume) | 101,30m2 | 105,41m2 | 111,49m2 | 90,51m2 | 109,52m2 | 106,42m2 | 90,00m2 | 109,52m2 | 106,42m2 | 126,65m2 |
